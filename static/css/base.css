@@ -1,0 +1,110 @@
+body {
+    font-family: 'Heebo', sans-serif;
+}
+
+header h1 a {
+    text-decoration: none;
+    color: blue;
+    font-size: 36px;
+    font-family: 'Heebo', sans-serif;
+}
+
+header h1 {
+    margin: 20px 5px;
+}
+
+.film-entry h2 a {
+    text-decoration: none;
+    font-size: 28px;
+}
+
+header h2,
+h1 {
+    display: inline-block;
+}
+
+header h2 {
+    margin-left: 1100px;
+}
+
+header h2 a {
+    text-decoration: none;
+    color: blue;
+}
+
+header h2 a:hover {
+    transition: 0.5s;
+    color: red;
+}
+
+.film-entry h4 {
+    font-size: 20px;
+    font-weight: bold;
+    color: black
+}
+
+.film-entry-2 h2 a {
+    text-decoration: none;
+    color: blue;
+    font-size: 24px;
+}
+
+.film-entry-2 h2 a:hover {
+    transition: 0.5s;
+    color: red;
+}
+
+.film-entry h2 a:hover {
+    transition: 0.5s;
+    color: red;
+}
+
+.film-entry p {
+    line-height: 24px;
+    font-weight: bold;
+    color: slategray;
+}
+
+.film-entry-2 h2 {
+    font-size: 36px;
+}
+
+.film-entry-2 h3 {
+    font-weight: bolder;
+    color: red;
+}
+
+.film-entry-2 h4 {
+    color: green;
+}
+
+.film-entry-2 p {
+    color: black;
+    font-family: sans-serif;
+    line-height: 24px;
+}
+
+.p {
+    display: inline-block;
+}
+
+.blue {
+    display: inline-block;
+    color: blue;
+}
+
+.log {
+    text-decoration: none;
+    color: blue;
+    display: inline-block;
+}
+
+.log:hover {
+    transition: 0.5s;
+    color: red;
+}
+
+.inline {
+    display: inline-block;
+    margin-left: 2px;
+}

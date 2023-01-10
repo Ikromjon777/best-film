@@ -1,0 +1,8 @@
+{% extends 'base.html' %} {% block content %} {% for film in object_list %}
+<div class="film-entry">
+    <h2><a href="{% url 'film_detail' film.pk %}">{{ film.name }}</a></h2>
+    <b><h4>Briefly about the film</h4></b>
+    <p>{{ film.short_text }}</p>
+    <br>
+</div>
+{% endfor %} {% endblock content %}

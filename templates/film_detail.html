@@ -1,0 +1,14 @@
+{% extends 'base.html' %} {% block content %}
+<div class="film-entry-2">
+    <h2> {{ film.name }}</h2>
+    <p>Date: {{ film.date }}</p>
+    <h3>Directed: {{film.directed }}</h3>
+    <h4>Cast: {{film.cast }}</h4>
+    <p>{{ film.text }}</p>
+    <iframe width="560" height="315" src="{{ film.link }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <br>
+    <h2 class="p"><a href="{% url 'film_edit' film.pk %}">Filmni tahrirlash</a></h2>
+    <p class="p" style="color: blue;">|</p>
+    <h2 class="p"><a href="{% url 'film_delete' film.pk %}">Filmni o'chirish</a></h2>
+</div>
+{% endblock content %}
